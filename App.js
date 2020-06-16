@@ -8,9 +8,12 @@ export default function App() {
     //   <Text>{outputText}</Text>
     //   <Button title="Change Text" onPress={() => setOutputText('Text Changed')}/>
     // </View>
-    <View>
+    <View style={{padding:50}}>
       <View>
-        <TextInput/>
+        <TextInput 
+          placeholder="Course Goal" 
+          style={{borderColor: 'black', borderWidth: 1, padding: 10}}
+        />
         <Button title="Add"/>
       </View>
     </View>
