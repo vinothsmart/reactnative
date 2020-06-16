@@ -12,7 +12,7 @@ export default function App() {
       <View>
         <TextInput 
           placeholder="Course Goal" 
-          style={{borderColor: 'black', borderWidth: 1, padding: 10}}
+          style={{borderColor:  'black', borderWidth: 1, padding: 10}}
         />
         <Button title="Add"/>
       </View>
