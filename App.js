@@ -9,7 +9,7 @@ export default function App() {
     //   <Button title="Change Text" onPress={() => setOutputText('Text Changed')}/>
     // </View>
     <View style={{padding:50}}>
-      <View>
+      <View style={{flexDirection: 'row'}}>
         <TextInput 
           placeholder="Course Goal" 
           style={{borderColor:  'black', borderWidth: 1, padding: 10}}
