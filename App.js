@@ -37,7 +37,7 @@ export default function App() {
         width: "80%",
         height: 300,
         justifyContent: "space-around",
-        alignItems: "center",
+        alignItems: "stretch",
       }}
     >
       <View
