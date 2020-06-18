@@ -30,7 +30,7 @@ export default function App() {
     //     />
     //   </View>
     // </View>
-    <View style={{ padding: 50, }}>
+    <View style={{ padding: 50, flexDirection: 'row' }}>
       <View
         style={{
           backgroundColor: "red",
