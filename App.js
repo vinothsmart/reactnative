@@ -43,7 +43,7 @@ export default function App() {
       <View
         style={{
           backgroundColor: "red",
-          flex:1,
+          flex: 1,
           justifyContent: "center",
           alignItems: "center",
         }}
@@ -53,7 +53,7 @@ export default function App() {
       <View
         style={{
           backgroundColor: "blue",
-          flex:1,
+          flex: 2,
           justifyContent: "center",
           alignItems: "center",
         }}
