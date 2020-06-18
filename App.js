@@ -36,13 +36,14 @@ export default function App() {
         flexDirection: "row",
         width: "80%",
         height: 300,
-        justifyContent: "space-between",
+        justifyContent: "space-around",
         alignItems: "center",
       }}
     >
       <View
         style={{
           backgroundColor: "red",
+          flex:1,
           justifyContent: "center",
           alignItems: "center",
         }}
