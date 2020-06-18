@@ -30,12 +30,10 @@ export default function App() {
     //     />
     //   </View>
     // </View>
-    <View style={{ padding: 50, flexDirection: 'row-reverse' }}>
+    <View style={{ padding: 50, flexDirection: 'row' }}>
       <View
         style={{
           backgroundColor: "red",
-          width: 100,
-          height: 100,
           justifyContent: "center",
           alignItems: "center",
         }}
@@ -45,8 +43,6 @@ export default function App() {
       <View
         style={{
           backgroundColor: "blue",
-          width: 100,
-          height: 100,
           justifyContent: "center",
           alignItems: "center",
         }}
@@ -56,8 +52,6 @@ export default function App() {
       <View
         style={{
           backgroundColor: "green",
-          width: 100,
-          height: 100,
           justifyContent: "center",
           alignItems: "center",
         }}
