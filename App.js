@@ -8,68 +8,52 @@ export default function App() {
     //   <Text>{outputText}</Text>
     //   <Button title="Change Text" onPress={() => setOutputText('Text Changed')}/>
     // </View>
-    // <View style={{ padding: 50 }}>
-    //   <View
-    //     style={{
-    //       flexDirection: "row",
-    //       justifyContent: "space-between",
-    //       alignContent: "center",
-    //     }}
-    //   >
-    //     <TextInput
-    //       placeholder="Course Goal"
-    //       style={{
-    //         width: "80%",
-    //         borderColor: "black",
-    //         borderWidth: 1,
-    //         padding: 10,
-    //       }}
-    //     />
-    //     <Button
-    //       title="Add"
-    //     />
-    //   </View>
-    // </View>
-    <View
-      style={{
-        padding: 50,
-        flexDirection: "row",
-        width: "80%",
-        height: 300,
-        justifyContent: "space-around",
-        alignItems: "stretch",
-      }}
-    >
-      <View
-        style={{
-          backgroundColor: "red",
-          flex: 1,
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <Text>1</Text>
-      </View>
-      <View
-        style={{
-          backgroundColor: "blue",
-          flex: 2,
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <Text>2</Text>
-      </View>
-      <View
-        style={{
-          backgroundColor: "green",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <Text>3</Text>
+    <View style={styles.screen}>
+      <View style={styles.inputContainer}>
+        <TextInput placeholder="Course Goal" style={styles.input} />
+        <Button title="Add" />
       </View>
     </View>
+    // <View
+    //   style={{
+    //     padding: 50,
+    //     flexDirection: "row",
+    //     width: "80%",
+    //     height: 300,
+    //     justifyContent: "space-around",
+    //     alignItems: "stretch",
+    //   }}
+    // >
+    //   <View
+    //     style={{
+    //       backgroundColor: "red",
+    //       flex: 1,
+    //       justifyContent: "center",
+    //       alignItems: "center",
+    //     }}
+    //   >
+    //     <Text>1</Text>
+    //   </View>
+    //   <View
+    //     style={{
+    //       backgroundColor: "blue",
+    //       flex: 2,
+    //       justifyContent: "center",
+    //       alignItems: "center",
+    //     }}
+    //   >
+    //     <Text>2</Text>
+    //   </View>
+    //   <View
+    //     style={{
+    //       backgroundColor: "green",
+    //       justifyContent: "center",
+    //       alignItems: "center",
+    //     }}
+    //   >
+    //     <Text>3</Text>
+    //   </View>
+    // </View>
   );
 }
 
@@ -81,3 +65,20 @@ export default function App() {
 //     justifyContent: 'center',
 //   },
 // });
+
+const styles = StyleSheet.create({
+  screen: {
+    padding: 50,
+  },
+  inputContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignContent: "center",
+  },
+  input: {
+    width: "80%",
+    borderColor: "black",
+    borderWidth: 1,
+    padding: 10,
+  },
+});
