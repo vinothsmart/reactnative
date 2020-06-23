@@ -33,7 +33,7 @@ export default function App() {
         />
       </View>
       <View>
-
+        {courseGoals.map((goal) => <Text>{goal}</Text>)}
       </View>
     </View>
     // <View
