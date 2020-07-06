@@ -1,13 +1,13 @@
 import React from "react";
-import { View, Text, StyleSheet, TouchableWithoutFeedback } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
 const GoalItem = (props) => {
   return (
-    <TouchableWithoutFeedback underlayColor="#ccc" onPress={props.onDelete}>
+    <TouchableOpacity underlayColor="#ccc" onPress={props.onDelete}>
       <View style={styles.listItem}>
         <Text>{props.title}</Text>
       </View>
-    </TouchableWithoutFeedback>
+    </TouchableOpacity>
   );
 };
 
