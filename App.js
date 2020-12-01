@@ -10,7 +10,7 @@ export default function App() {
   const [isAddMode, setIsAddMode] = useState(false);
   // console.log("RE-RENDERING COMPONENT");
   // console.log(courseGoals);
-  console.log(courseGoals);
+  console.log("courseGoals", courseGoals);
 
   const addGoalHandler = (goalTitle) => {
     if (goalTitle.length === 0) {
