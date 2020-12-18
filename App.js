@@ -47,7 +47,6 @@ export default function App() {
           borderBottomColor: "black",
           borderWidth: 1,
           padding: 10,
-          marginBottom: 10,
         }}
       />
       <Button title="Add New Goal" onPress={() => setIsAddMode(true)} />
