@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { StyleSheet, View, Button, FlatList } from "react-native";
+import { StyleSheet, View, Button, FlatList, TextInput } from "react-native";
 import GoalItem from "./components/GoalItem";
 import GoalInput from "./components/GoalInput";
 
@@ -41,6 +41,15 @@ export default function App() {
     //   <Button title="Change Text" onPress={() => setOutputText('Text Changed')}/>
     // </View>
     <View style={styles.screen}>
+      <TextInput
+        placeholder="Course Goal"
+        style={{
+          borderBottomColor: "black",
+          borderWidth: 1,
+          padding: 10,
+          marginBottom: 10,
+        }}
+      />
       <Button title="Add New Goal" onPress={() => setIsAddMode(true)} />
       <GoalInput
         visible={isAddMode}
